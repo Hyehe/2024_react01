@@ -2,8 +2,9 @@ import './App.css';
 // import Header from './components/Header';
 // import Main from './components/Main';
 // import Footer from './components/Footer';
-import Courseitem from './components/course/Courseitem';
-import CourseListCard from './components/course/CourseListCard';
+// import Courseitem from './components/course/Courseitem';
+// import CourseListCard from './components/course/CourseListCard';
+import Library from './components/step01/Library';
 /*
 function Header() {
   return(
@@ -38,8 +39,9 @@ function  Counter() {
 // class 대신 className이라고 사용한다.
 function App() {
   return (
-    <main>
-      {/* 
+    <div className='App'>
+    {/* 
+     <main>
     <Header />
     <Main />
     <Footer /> 
@@ -89,9 +91,13 @@ function App() {
           </div>
         </div>
       </div> 
+
+       3단계 : <CourseListCard /> 
+       </main>
       */}
-      <CourseListCard />
-    </main>
+      
+        <Library />
+      </div>
   );
 }
 
